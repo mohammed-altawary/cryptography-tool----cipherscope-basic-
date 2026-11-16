@@ -27,5 +27,5 @@ def b58_decode(t):
 def caesar(t,s):
  return "".join(chr((ord(c)-(65 if c.isupper() else 97)+s)%26+(65 if c.isupper() else 97)) if c.isascii() and c.isalpha() else c for c in t)
 def atbash(t):
- return "".join(chr(155-ord(c)) if "a"<=c<="z" else chr(155-ord(c)) if "A"<=c<="Z" else c for c in t)
+ return "".join(chr(219-ord(c)) if "a"<=c<="z" else chr(155-ord(c)) if "A"<=c<="Z" else c for c in t)
 def english_score(t): return sum(t.lower().count(c) for c in " etaoinshrdlu")/max(len(t),1)
