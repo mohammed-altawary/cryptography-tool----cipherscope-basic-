@@ -1,5 +1,7 @@
 # CipherScope
 
+i made this as a script / tool for an upcoming hackathon, i was trying to learn cryptography and got stuck on a couple of problems so what i was stuck on i made a tool to help me learn and better myself.
+
 A Python command-line toolkit for learning about encodings, classical ciphers, text analysis, hashes, JWT structure, file metadata, and related utilities.
 
 > Educational use only. Encodings and classical ciphers are not encryption. JWT inspection does not verify signatures. Never enter real passwords, private keys, API tokens, or confidential data into demonstrations.
